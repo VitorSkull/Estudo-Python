@@ -1,0 +1,6 @@
+LN = input('Digite algo: ')
+print('é um número?',LN.isnumeric())
+print('é decimal?',LN.isdecimal())
+print('é um digito?',LN.isdigit())
+print('é um número alphanumérico?',LN.isalpha())
+print('tem apenas letras maiúsculas?',LN.isupper())
